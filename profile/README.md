@@ -9,7 +9,7 @@ At Wallaby, we believe that we should only create products that we ourselves use
 
 :hamster: [Quokka.js](https://quokkajs.com) runs JavaScript and TypeScript with instant feedback. Runtime values are updated and displayed in your editor next to your code, as you type.
 
-:ninja: [Console Ninja](https://console-ninja.com) displays `console.log` output and **runtime errors** directly in your editor from your running browser or node application. 
+<img height=20 width=20 src="https://github.githubassets.com/images/icons/emoji/unicode/1f977.png"> [Console Ninja](https://console-ninja.com) displays `console.log` output and **runtime errors** directly in your editor from your running browser or node application. 
  
 :tv: [Codeclip](https://codeclip.io) shares a recording of your code execution and output.
 
