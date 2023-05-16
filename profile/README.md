@@ -11,7 +11,7 @@ At Wallaby, we believe that we should only create products that we ourselves use
 
 :ninja: [Console Ninja](https://console-ninja.com) displays `console.log` output and **runtime errors** directly in your editor from your running browser or node application. 
  
-:tv: [Codeclip](https://codeclip.io) shares a recording of your code execution and output
+:tv: [Codeclip](https://codeclip.io) shares a recording of your code execution and output.
 
 :dog2: [Dingo](https://wallabyjs.com/dingo) is a VS Code extension that allows you to download, install and open git repos and the source code for npm packages from the comfort of your editor.
 [GitHub :octocat: + ❤️ open source](https://github.com/wallabyjs/dingo)
