@@ -1,6 +1,6 @@
 ## Hi there 👋 🦘
 
-We're [Wallaby](https://wallabyjs.com), a team of talented software engineers who are passionate about creating software development tools.
+We're [Wallaby](https://wallabyjs.com), a team of software engineers who are passionate about creating software development tools.
 
 At Wallaby, we believe that we should only create products that we ourselves use on a daily basis. This allows us to truly understand our users and feel the same pains that they do so that we can invent and innovate on their behalf.
 
