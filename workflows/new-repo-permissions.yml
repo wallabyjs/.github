@@ -1,0 +1,41 @@
+name: "Set default permissions on new repos"
+
+on:
+  repository:
+    types: [created]
+
+permissions:
+  administration: write
+
+jobs:
+  assign-permissions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Assign Team Permissions
+        uses: actions/github-script@v6
+        with:
+          # By default, github-token: ${{ github.token }} is used,
+          # but that token often does not have enough permissions to manage org/team repos.
+          # You will likely need to create an org secret (e.g. ORG_ADMIN_TOKEN) with admin-level scope
+          # and reference it here:
+          github-token: ${{ secrets.ORG_ADMIN_TOKEN }}
+          script: |
+            const owner = context.payload.repository.owner.login;
+            const repoName = context.payload.repository.name;
+
+            const team_slug = "developers"; 
+            
+            const permission = "maintain"; 
+            
+            await github.request('PUT /orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}', {
+              org: owner,
+              team_slug: team_slug,
+              owner: owner,
+              repo: repoName,
+              permission: permission
+            });
+            
+            console.log(
+              `Assigned the team "${team_slug}" ${permission} access to ${owner}/${repoName}`
+            );
