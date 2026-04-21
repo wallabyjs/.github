@@ -7,6 +7,8 @@ At Wallaby, we believe that we should only create products that we ourselves use
 ### Our projects
 :kangaroo: [Wallaby.js](https://wallabyjs.com) is a developer productivity tool that runs your JavaScript and TypeScript tests immediately as you type, highlighting results in your IDE right next to your code.
 
+:snake: [Wallaby.py](https://wallabypy.com) is a test runner with instant actionable pytest results, runtime values, coverage, errors, and time-travel debugging into VS Code, so you can fix Python faster and give Copilot, Cursor, or Claude the execution context they need to stop guessing.
+
 :hamster: [Quokka.js](https://quokkajs.com) runs JavaScript and TypeScript with instant feedback. Runtime values are updated and displayed in your editor next to your code, as you type.
 
 <img height=20 width=20 src="https://github.githubassets.com/images/icons/emoji/unicode/1f977.png"> [Console Ninja](https://console-ninja.com) displays `console.log` output and **runtime errors** directly in your editor from your running browser or node application. 
@@ -17,7 +19,7 @@ At Wallaby, we believe that we should only create products that we ourselves use
 [GitHub :octocat: + ❤️ open source](https://github.com/wallabyjs/dingo)
 
 ### Follow us!
-- [ ] [Follow us on Twitter 🐦](https://twitter.com/wallabyjs)
+- [ ] [Follow us on X (formerly Twitter)🐦](https://x.com/wallabyjs)
 - [ ] [Join our Discord 🎮](https://discord.gg/5ga2MDW)
 - [ ] [Subscribe on our Youtube 📺](https://www.youtube.com/@WallabyTeam)
 
